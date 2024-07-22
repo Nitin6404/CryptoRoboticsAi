@@ -11,7 +11,7 @@ import { Button } from "../ui/button";
 
 export default function TopStrategiesSection() {
     return (
-        <div className="flex flex-col mt-5 p-2.5">
+        <div className="flex flex-col mt-5 p-2.5 mb-10">
             <div className="h-[140px] mb-5 flex justify-center items-center">
                 <p className="flex justify-center items-center">
                     <span className="text-[40px] text-[#251359] font-monteserrat font-bold">Top Strategies</span>
