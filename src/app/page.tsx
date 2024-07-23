@@ -2,9 +2,9 @@ import Header from '@/components/LandingPage/Header';
 import HeroSection from '@/components/LandingPage/HeroSection';
 import TopStrategiesSection from '@/components/LandingPage/TopStrategiesSection';
 import MobileApplicationSection from '@/components/LandingPage/MobileApplicationSection';
-// import TradingSoftwareSection from '@/components/LandingPage/TradingSoftwareSection';
-// import PremiumSupportSection from '@/components/LandingPage/PremiumSupportSection';
-// import Footer from '@/components/LandingPage/Footer';
+import TradingSoftwareSection from '@/components/LandingPage/TradingSoftwareSection';
+import PremiumSupportSection from '@/components/LandingPage/PremiumSupportSection';
+import Footer from '@/components/LandingPage/Footer';
 
 export default function Home() {
   return (
@@ -13,9 +13,9 @@ export default function Home() {
       <HeroSection />
       <TopStrategiesSection />
       <MobileApplicationSection />
-      {/* <TradingSoftwareSection />
-    <PremiumSupportSection />
-    <Footer /> */}
+      <TradingSoftwareSection />
+      <PremiumSupportSection />
+      <Footer />
     </div>
   );
 }

@@ -11,7 +11,7 @@ import { Button } from "../ui/button";
 
 export default function TopStrategiesSection() {
     return (
-        <div className="flex flex-col mt-5 p-2.5 mb-10">
+        <div className="flex flex-col mt-5 p-2.5 pb-[107px]">
             <div className="h-[140px] mb-5 flex justify-center items-center">
                 <p className="flex justify-center items-center">
                     <span className="text-[40px] text-[#251359] font-monteserrat font-bold">Top Strategies</span>
@@ -31,7 +31,7 @@ export default function TopStrategiesSection() {
                             <div >
                                 <div className="flex flex-col mb-5">
                                     <div className="flex justify-start items-center">
-                                        <FaCheck className="h-[13.6px] mr-1.5 w-3.5 text-[#4fbc87]"/>
+                                        <FaCheck className="h-[13.6px] mr-1.5 w-3.5 text-[#4fbc87]" />
                                         <p className="ml-1.5 text-[#1f1e1e] text-base ">Tool type</p>
                                     </div>
                                     <div>
@@ -40,9 +40,9 @@ export default function TopStrategiesSection() {
                                 </div>
                             </div>
                             <div>
-                            <div className="flex flex-col">
+                                <div className="flex flex-col">
                                     <div className="flex justify-start items-center">
-                                        <FaCheck className="h-[13.6px] mr-1.5 w-3.5 text-[#4fbc87]"/>
+                                        <FaCheck className="h-[13.6px] mr-1.5 w-3.5 text-[#4fbc87]" />
                                         <p className="ml-1.5 text-[#1f1e1e] text-base ">Monthy profit</p>
                                     </div>
                                     <div>
@@ -72,7 +72,7 @@ export default function TopStrategiesSection() {
                             <div >
                                 <div className="flex flex-col mb-5">
                                     <div className="flex justify-start items-center">
-                                        <FaCheck className="h-[13.6px] mr-1.5 w-3.5 text-[#4fbc87]"/>
+                                        <FaCheck className="h-[13.6px] mr-1.5 w-3.5 text-[#4fbc87]" />
                                         <p className="ml-1.5 text-[#1f1e1e] text-base ">Tool type</p>
                                     </div>
                                     <div>
@@ -81,9 +81,9 @@ export default function TopStrategiesSection() {
                                 </div>
                             </div>
                             <div>
-                            <div className="flex flex-col">
+                                <div className="flex flex-col">
                                     <div className="flex justify-start items-center">
-                                        <FaCheck className="h-[13.6px] mr-1.5 w-3.5 text-[#4fbc87]"/>
+                                        <FaCheck className="h-[13.6px] mr-1.5 w-3.5 text-[#4fbc87]" />
                                         <p className="ml-1.5 text-[#1f1e1e] text-base ">Monthy profit</p>
                                     </div>
                                     <div>
@@ -113,7 +113,7 @@ export default function TopStrategiesSection() {
                             <div >
                                 <div className="flex flex-col mb-5">
                                     <div className="flex justify-start items-center">
-                                        <FaCheck className="h-[13.6px] mr-1.5 w-3.5 text-[#4fbc87]"/>
+                                        <FaCheck className="h-[13.6px] mr-1.5 w-3.5 text-[#4fbc87]" />
                                         <p className="ml-1.5 text-[#1f1e1e] text-base ">Tool type</p>
                                     </div>
                                     <div>
@@ -122,9 +122,9 @@ export default function TopStrategiesSection() {
                                 </div>
                             </div>
                             <div>
-                            <div className="flex flex-col">
+                                <div className="flex flex-col">
                                     <div className="flex justify-start items-center">
-                                        <FaCheck className="h-[13.6px] mr-1.5 w-3.5 text-[#4fbc87]"/>
+                                        <FaCheck className="h-[13.6px] mr-1.5 w-3.5 text-[#4fbc87]" />
                                         <p className="ml-1.5 text-[#1f1e1e] text-base ">Monthy profit</p>
                                     </div>
                                     <div>
