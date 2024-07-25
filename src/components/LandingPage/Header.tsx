@@ -11,8 +11,12 @@ export default function Header() {
             </div>
             <div className='flex items-center'>
                 <Button className="h-[34px] px-7 py-5 text-white bg-[#6481e6] rounded-full ml-4 transform hover:scale-90 transition-transform duration-300 ease-in-out">About us</Button>
-                <Button className='h-[34px] px-7 py-5 text-white bg-[#6481e6] rounded-full ml-4 transform hover:scale-90 transition-transform duration-300 ease-in-out'>Login</Button>
-                <Button className='h-[34px] px-7 py-5 text-white bg-[#6481e6] rounded-full ml-4 transform hover:scale-90 transition-transform duration-300 ease-in-out'>Sign Up</Button>
+                <Link href="/login">
+                    <Button className='h-[34px] px-7 py-5 text-white bg-[#6481e6] rounded-full ml-4 transform hover:scale-90 transition-transform duration-300 ease-in-out'>Login</Button>
+                </Link>
+                <Link href="/signup">
+                    <Button className='h-[34px] px-7 py-5 text-white bg-[#6481e6] rounded-full ml-4 transform hover:scale-90 transition-transform duration-300 ease-in-out'>Sign Up</Button>
+                </Link>
             </div>
         </div>
     );
